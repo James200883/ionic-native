@@ -112,6 +112,8 @@ import { WebIntent } from './plugins/webintent';
 import { YoutubeVideoPlayer } from './plugins/youtube-video-player';
 import { ZBar } from './plugins/z-bar';
 import { Zip } from './plugins/zip';
+import {AliPay} from './plugins/ali-pay';
+import {WeiXinPay} from './plugins/wei-xin-pay';
 export * from './plugins/3dtouch';
 export * from './plugins/actionsheet';
 export * from './plugins/admob';
@@ -119,6 +121,7 @@ export * from './plugins/android-fingerprint-auth';
 export * from './plugins/appavailability';
 export * from './plugins/apprate';
 export * from './plugins/appversion';
+export * from './plugins/ali-pay';
 export * from './plugins/background-geolocation';
 export * from './plugins/backgroundmode';
 export * from './plugins/badge';
@@ -218,6 +221,7 @@ export * from './plugins/vibration';
 export * from './plugins/video-editor';
 export * from './plugins/video-player';
 export * from './plugins/webintent';
+export * from './plugins/wei-xin-pay';
 export * from './plugins/youtube-video-player';
 export * from './plugins/z-bar';
 export * from './plugins/zip';
@@ -230,6 +234,7 @@ window['IonicNative'] = {
   AppAvailability,
   AppRate,
   AppVersion,
+  AliPay,
   Badge,
   BackgroundGeolocation,
   BackgroundMode,
@@ -329,6 +334,7 @@ window['IonicNative'] = {
   VideoPlayer,
   Vibration,
   WebIntent,
+  WeiXinPay,
   YoutubeVideoPlayer,
   ZBar,
   Zip
